@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "tailwindcss -i ./styles.css -o ../src/main/resources/static/main.css",
+    "build": "tailwindcss -i ./styles.css -o ../src/main/resources/static/main.css --minify",
     "watch": "tailwindcss --watch -i ./styles.css -o ../src/main/resources/static/main.css"
   },
   "devDependencies": {

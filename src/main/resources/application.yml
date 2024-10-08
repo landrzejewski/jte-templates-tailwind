@@ -1,6 +1,12 @@
 spring:
   jpa:
     open-in-view: false
+  threads:
+    virtual:
+      enabled: true
+server:
+  compression:
+    enabled: true
 gg:
   jte:
     usePrecompiledTemplates: true
